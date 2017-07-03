@@ -1,6 +1,16 @@
 {
-    "require": {
-        "spatie/db-dumper": "^1.5",
-        "swiftmailer/swiftmailer": "^6.0"
+  "name": "itechempires/php-automate-database-with-cron-job",
+  "description": "Take Database backup and send email notification",
+  "type": "library",
+  "require": {
+    "spatie/db-dumper": "^1.5",
+    "swiftmailer/swiftmailer": "6.0"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Yogesh Koli",
+      "email": "info@yogeshkoli.com"
     }
+  ]
 }
